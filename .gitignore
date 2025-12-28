@@ -1,0 +1,60 @@
+*.py[cod]
+**/*.pyc
+**/__pycache__
+#migrations
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov/
+.coverage.*
+*,cover
+
+# Translations
+*.mo
+
+# Virtualenvs
+.venv
+/venv*
+env/
+.python-version
+
+# Environment
+
+# Development database
+*.db
+
+# Ignore dev database
+db_backup
+
+.idea/
+.DS_Store
+
+./gitignore
+.env*
+docker/dev/postgres
+
+# scratch files
+scratch_*.*
+scratches/
+scratches/**
